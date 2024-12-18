@@ -21,7 +21,7 @@ h4 {
 }
 .section-title {
   text-align: center;
-  margin: 2rem;
+  margin: 1rem;
   color: rgb(151 62 44);
   font-size: 2rem;
 }
@@ -29,8 +29,7 @@ h4 {
   display: grid;
   place-content: center;
   max-width: 900px;
-  margin: 0 auto;
-  border-radius: 10px;
+  margin: 2rem auto;
 }
 
 .about-info {
