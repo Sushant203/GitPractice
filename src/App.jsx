@@ -1,9 +1,10 @@
 import "./App.css";
+import Layout from "./Navigation/Layout";
 
 function App() {
   return (
     <>
-      <h1 className="text-2xl">hello</h1>
+      <Layout />
     </>
   );
 }
