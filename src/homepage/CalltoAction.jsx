@@ -2,7 +2,7 @@ import React from 'react';
 
 const CalltoAction = () => {
   return (
-    <main className="min-h-screen flex items-center justify-center ">
+    <main className=" py-5 my-5 flex items-center justify-center ">
       <div className="text-center bg-white shadow-md rounded-lg p-6 md:p-10">
         <h1 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4">
           Enter Your Number to Join Us
