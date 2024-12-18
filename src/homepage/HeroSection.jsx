@@ -8,7 +8,7 @@ const HeroSection = () => {
         backgroundSize: "cover",
         backgroundPosition: "",
         backgroundRepeat: "no-repeat",
-        height: "70vh",
+        height: "80vh",
         width: "100%",
       }}
       className="relative  flex items-center justify-center"
@@ -30,7 +30,7 @@ const HeroSection = () => {
             </p>
           </div>
 
-          <div className="cursor-pointer bg-[#3D69CB] px-14 py-4 rounded-xl hover:scale-105 hover:duration-200 hover:delay-200 hover:ease-in-out">
+          <div className="cursor-pointer bg-[#3D69CB] px-14 py-4 rounded-xl hover:scale-105">
             <button>Book Now</button>
           </div>
         </div>
