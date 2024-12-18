@@ -3,6 +3,8 @@ import BookNow from "./components/BookNow";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "../src/homepage";
 import Layout from "./Navigation/Layout";
+import AboutPage from "./pages/AboutPage";
+import ErrorPage from "./components/ErrorPage";
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="/book" element={<BookNow />} />
+          <Route path="/book-now" element={<BookNow />} />
+          <Route path="about-us" element={<AboutPage />} />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
       </Layout>
     </Router>
