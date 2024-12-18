@@ -1,8 +1,9 @@
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className=" py-3 bg-black text-white">
+    <footer className=" py-6 my-3 bg-black text-white h-full">
       <div className="flex justify-around">
+        <h2 className="text-2xl">Babari.</h2>
         {/* contact form */}
         <div>
           <h2 className="text-2xl">Contact Us</h2>
