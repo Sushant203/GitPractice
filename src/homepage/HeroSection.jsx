@@ -27,10 +27,13 @@ const HeroSection = () => {
               modern amenities meet timeless elegance. Indulge in exquisite
               dining, relax in spacious rooms, and enjoy world-class hospitality
               tailored to make every moment unforgettable.
+
+            
             </p>
+        
           </div>
 
-          <div className="cursor-pointer bg-[#3D69CB] px-14 py-4 rounded-xl hover:scale-105">
+          <div className="cursor-pointer bg-[#3D69CB] px-14 py-4 rounded-xl hover:scale-105 mt-2 ">
             <button>Book Now</button>
           </div>
         </div>
