@@ -1,24 +1,28 @@
+import { Link } from "react-router-dom";
+
 const NavBar = () => {
   const navData = [
     {
       name: "Home",
+      path: "/",
     },
     {
       name: "Book now",
+      path: "/book-now",
     },
     {
       name: "About Us",
+      path: "/about-us",
     },
     {
-      name: "Services",
-    },
-    {
-      name: "Gallery",
-    },
+      name: "Our Services",
+      path: "/services"
+    }
   ];
+
   return (
-    <nav className="container bg-red-500 px-4 py-4 ">
-      <div className="flex  justify-between ">
+    <nav className="container bg-red-500 px-4 py-4">
+      <div className="flex justify-between">
         {/* logo */}
         <div>
           <h2 className="text-2xl">Babari.</h2>
@@ -28,9 +32,9 @@ const NavBar = () => {
         <div className="flex gap-8 text-2xl">
           {navData.map((item, index) => {
             return (
-              <div key={index} className="cursor-pointer">
+              <Link key={index} className="cursor-pointer" to={item.path}>
                 {item.name}
-              </div>
+              </Link>
             );
           })}
         </div>
