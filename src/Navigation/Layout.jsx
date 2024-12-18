@@ -5,11 +5,8 @@ const Layout = ({ children }) => {
   return (
     <div>
       <NavBar />
-
-      <Footer />
-
       {children}
-
+      <Footer />
     </div>
   );
 };
