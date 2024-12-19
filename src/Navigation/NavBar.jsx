@@ -7,7 +7,7 @@ const NavBar = () => {
       path: "/",
     },
     {
-      name: "Book now",
+      name: "Book Now",
       path: "/book-now",
     },
     {
@@ -15,9 +15,9 @@ const NavBar = () => {
       path: "/about-us",
     },
     {
-      name: "Our Services",
-      path: "/services"
-    }
+      name: "Services",
+      path: "/services",
+    },
   ];
 
   return (
@@ -25,18 +25,20 @@ const NavBar = () => {
       <div className="flex justify-between">
         {/* logo */}
         <div>
-          <h2 className="text-2xl">Babari.</h2>
+          <h2 className="text-2xl font-bold text-white">Babari.</h2>
         </div>
 
         {/* navigation */}
         <div className="flex gap-8 text-2xl">
-          {navData.map((item, index) => {
-            return (
-              <Link key={index} className="cursor-pointer" to={item.path}>
-                {item.name}
-              </Link>
-            );
-          })}
+          {navData.map((item, index) => (
+            <Link
+              key={index}
+              to={item.path}
+              className="text-white hover:underline cursor-pointer"
+            >
+              {item.name}
+            </Link>
+          ))}
         </div>
       </div>
     </nav>
