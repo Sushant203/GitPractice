@@ -1,11 +1,12 @@
-import OurServices from "./OurServices";
+import React from 'react'
+import OurServices from './OurServices'
 
 const Servicespage = () => {
   return (
     <div>
-      <OurServices />
+       <OurServices/>
     </div>
-  );
-};
+  )
+}
 
-export default Servicespage;
+export default Servicespage
